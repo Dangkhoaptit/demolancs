@@ -40,9 +40,7 @@ for file in newdataList:
                         for i in range(0, len(u)):
                             try:
                                 data_name = data['flows']['br-lan'][i]['detected_protocol_name']
-                                # host_server_name = data['flows']['br-lan'][i]['host_server_name']
-                                # host_server_ip = data['flows']['br-lan'][i]['local_ip']
-
+                               
                                 listDeProName.append(data_name)
                                 # dictServer["host_server_name"] = host_server_name
                                 # dictServer["host_server_ip"] = host_server_ip
